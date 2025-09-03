@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=lichuachua&project=llms-project&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # 大模型应用开发学习路线（速通版）
 
 本仓库为本人学习🔥大模型应用开发🔥时候整理和学习的一些资料，都是干货，没有额外的扩展，💰上岸搞钱为第一要务💰。欢迎阅读，如果对你有用，麻烦点一下 🌟 star，谢谢！
