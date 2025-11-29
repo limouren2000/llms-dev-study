@@ -4,8 +4,9 @@
 
 # ✅ 导读
 
-本项目为大模型应用开发 RAG 和 Agent 简单 Demo 展示，均使用LangChain框架，包含最基础的扫盲课程，主要是协助大家🧐快速入门🧐。
-目录结构为三部分：
+🚀 本项目为大模型应用开发 RAG 和 Agent 简单 Demo 展示，均使用LangChain框架，包含最基础的扫盲课程，主要是协助大家🧐快速入门🧐。  
+⚠️ 注意：因为langchain官方的**包版本机制混乱**，这里的一些包大概率是过时了，解决方案也很简单：直接把你的报错扔给任何一个大模型（deepseek，GPT，doubao都可以），他们会告诉你怎么解决。  
+📖 目录结构为三部分：
 - **LangChain_RAG 文件夹**：RAG相关的项目Demo和学习资料；
 - **LangChain_Agent 文件夹**：Agent相关的Demo和学习资料；
 - **Interview**：大模型RAG和Agent的面试八股。
