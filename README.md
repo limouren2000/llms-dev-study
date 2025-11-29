@@ -21,7 +21,7 @@
 ### 视频地址（看整个系列）：
 - https://www.bilibili.com/video/BV1qC4y1F7Dy
 ### 代码：
-- 🌹代码地址（可运行版）：https://github.com/limouren2000/llms-project/tree/main/LangChain_RAG/llms-1/
+- 🌹代码地址（可运行版）：https://github.com/limouren2000/llms-dev-study/tree/main/LangChain_RAG/llms-1/
   - note（✅建议下载运行这个✅）：本人运行代码，部分包的更新（原作者代码部分包过期）
   - original：原作者代码（同代码原址，不建议，可能需要更新包）
 - 代码原址：https://github.com/blackinkkkxi/RAG_langchain/tree/main   
@@ -30,7 +30,7 @@
 ### 视频地址（看单篇既可）：
 - https://www.bilibili.com/video/BV1Cp421R7Y7
 ### 代码：
-- 🌹代码地址（可运行版）：https://github.com/limouren2000/llms-project/tree/main/LangChain_RAG/llms-2/
+- 🌹代码地址（可运行版）：https://github.com/limouren2000/llms-dev-study/tree/main/LangChain_RAG/llms-2/
   - note（✅建议下载运行这个✅）：本人运行代码，部分包的更新（原作者代码部分包过期）
   - original：原作者代码（同代码原址，不建议，可能需要更新包）
 - 代码原址：https://github.com/owenliang/rag-retrieval/tree/main  
@@ -40,7 +40,7 @@
 - 外网原视频（英文）：https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x
 - 国内中文版：https://www.bilibili.com/video/BV1dm41127jc/
 ### 代码：
-- 🌹代码地址（可运行版）：https://github.com/limouren2000/llms-project/tree/main/LangChain_RAG/llms-3/
+- 🌹代码地址（可运行版）：https://github.com/limouren2000/llms-dev-study/tree/main/LangChain_RAG/llms-3/
   - note（✅建议下载运行这个✅）：本人运行代码，部分包的更新（原作者代码部分包过期）
   - original：原作者代码（同代码原址，不建议，可能需要更新包）
   - PPT：官方视频对应的PPT
@@ -69,7 +69,7 @@
 ### 视频地址：
 - https://www.bilibili.com/video/BV1JV411F7Yj/
 ### 代码：
-- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/limouren2000/llms-project/tree/main/LangChain_Agents/AI_Agent/
+- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/limouren2000/llms-dev-study/tree/main/LangChain_Agents/AI_Agent/
 - 代码原址：https://github.com/parallel75/AI_Agent  
 - 运行平台：本地
 
@@ -79,7 +79,7 @@
 ### 说明：
 - 这个项目运行起来需要申请【千问相关key和api】，有坑，建议下载本人更改过后的代码，可以直接运行，千问更新版本需要代码更新，我已更改。
 ### 代码：
-- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/limouren2000/llms-project/blob/main/LangChain_Agents/QW_Agent/
+- 🌹代码地址（✅本人更改过后的代码，可以直接运行✅）：https://github.com/limouren2000/llms-dev-study/blob/main/LangChain_Agents/QW_Agent/
 - 代码原址（运行有问题，需要自己更改）：https://github.com/owenliang/agent
 - 运行平台：本地
 
