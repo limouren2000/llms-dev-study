@@ -170,18 +170,3 @@
        src="https://api.star-history.com/svg?repos=limouren2000/llms-dev-study&type=Date"
        style="max-width: 100%;" />
 </p>
-
-# ✅ 说明
-
-本仓库的内容**足够支撑基础学习和面试准备**，但收到不少朋友反馈：希望获得**更细致的学习规划**、**项目实操指导**，或是遇到问题能及时得到**针对性答疑**。
-
-由于个人精力有限，一对一答疑、定制化学习路线梳理、项目细节拆解等服务需要**占用大量私人时间**，因此在小红书上架了更完整的配套服务（包含**不同基础的详细学习路线**、完整版**面试八股**、**项目包装**攻略、**专属答疑**通道）。
-
-如果需要更深度的指导，帮你**少走弯路**、高效**突破学习瓶颈**，可点击下方徽章了解详情，我会尽力为大家解决实际问题～
-
-<p align="center">
-  <a href="https://xhslink.com/m/AnSrQOLt5y1" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/xhs-小红书配套服务-ff2442?style=for-the-badge&logo=xiaohongshu" />
-  </a>
-</p>
-
