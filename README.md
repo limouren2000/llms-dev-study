@@ -171,6 +171,9 @@
 - 🌹Skill 地址：https://github.com/limouren2000/llms-dev-study/tree/main/4.Paper-read/paper-read-brief
 - 说明：将机器学习、深度学习、多模态、生成式 AI 等论文整理成中文速读精要，按原论文结构逐节提炼核心观点、方法机制、关键图表公式和实验结论。
 - 适合场景：想快速读懂一篇论文的核心内容，但不需要完整长文精读。
+- 示例：
+  - [ReAct: Synergizing Reasoning and Acting in Language Models 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/react-synergizing-reasoning-and-acting.md)
+  - [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/mem0-scalable-long-term-memory.md)
 
 # ✅ 增长曲线
 
