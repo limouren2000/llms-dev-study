@@ -27,10 +27,11 @@
 
 🚀 本项目为大模型应用开发 RAG 和 Agent 的**学习路线**和**面试八股**，包含最**基础的扫盲课程**，和**系统的优化课程**，主要是协助大家🧐快速入门🧐。  
 ⚠️ 注意：因为langchain官方的**包版本机制混乱**，这里的一些包大概率是过时了，**解决方案**也很简单：直接把你的报错扔给任何一个大模型（deepseek，GPT，doubao都可以），他们会告诉你怎么解决。  
-📖 目录结构为三部分：
+📖 目录结构为四部分：
 - **1.RAG 文件夹**：RAG相关的项目Demo和课程；
 - **2.Agent 文件夹**：Agent相关的Demo和课程；
-- **3.Interview**：大模型RAG和Agent的面试八股。
+- **3.Interview**：大模型RAG和Agent的面试八股；
+- **4.Paper-read 文件夹**：论文阅读相关的 Codex skills，目前包含论文速读精要 skill。
 
 # ✅ RAG
 
@@ -161,6 +162,15 @@
 - 详细介绍大模型（LLMs）RAG检索增强生成学习/面试过程中可能遇到的知识点，全文4w+字，按照处理流程整理：[大模型RAG知识笔记](https://mp.weixin.qq.com/s/zmUTGAMoljXSmnoo_cBQig)
 ## Agent
 - 详细介绍大模型（LLMs）智能体Agent学习/面试过程中可能遇到的知识点，全文1w+字，按照模块整理：[大模型Agent知识笔记](https://mp.weixin.qq.com/s/TSioLS_RhrX57YEnY3mkag)
+
+# ✅ Paper-read
+
+本部分用于沉淀论文阅读相关的 Codex skills，方便把论文、arXiv、PDF、网页或截图整理成中文阅读笔记。
+
+## paper-read-brief（论文速读精要）
+- 🌹Skill 地址：https://github.com/limouren2000/llms-dev-study/tree/main/4.Paper-read/paper-read-brief
+- 说明：将机器学习、深度学习、多模态、生成式 AI 等论文整理成中文速读精要，按原论文结构逐节提炼核心观点、方法机制、关键图表公式和实验结论。
+- 适合场景：想快速读懂一篇论文的核心内容，但不需要完整长文精读。
 
 # ✅ 增长曲线
 
