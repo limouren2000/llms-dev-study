@@ -1,0 +1,7 @@
+interface:
+  display_name: "论文速读精要"
+  short_description: "按论文原文结构提取每一部分最核心观点、方法、图表、公式和实验结论"
+  default_prompt: "使用 $paper-read-brief 帮我把这篇论文整理成中文速读精要，按原文每一节提取最核心、最重要的观点和内容。"
+
+policy:
+  allow_implicit_invocation: true
