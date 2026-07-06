@@ -172,8 +172,10 @@
 - 说明：将机器学习、深度学习、多模态、生成式 AI 等论文整理成中文速读精要，按原论文结构逐节提炼核心观点、方法机制、关键图表公式和实验结论。
 - 适合场景：想快速读懂一篇论文的核心内容，但不需要完整长文精读。
 - 示例：
-  - [ReAct: Synergizing Reasoning and Acting in Language Models 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/react-synergizing-reasoning-and-acting.md)
-  - [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/mem0-scalable-long-term-memory.md)
+  - [ReAct 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/ReAct%E9%80%9F%E8%AF%BB%E7%B2%BE%E8%A6%81.md)
+  - [Mem0 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/Mem0%E9%80%9F%E8%AF%BB%E7%B2%BE%E8%A6%81.md)
+  - [Graph of Thoughts 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/Graph%20of%20Thoughts%20%E9%80%9F%E8%AF%BB%E7%B2%BE%E8%A6%81.md)
+  - [Tree of Thoughts 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/Tree%20of%20Thoughts%20%E9%80%9F%E8%AF%BB%E7%B2%BE%E8%A6%81.md)
 
 # ✅ 增长曲线
 
