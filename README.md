@@ -21,7 +21,7 @@
 
 本仓库为本人学习🔥大模型应用开发🔥时整理的核心学习资料，此学习路线主打 **“最快速上岸”**，全是干货无冗余扩展，💰以高效求职搞钱为第一要务💰。
 
-欢迎阅读仓库内容，如果对你有用，麻烦点一下 🌟 star，谢谢！
+欢迎阅读仓库内容，如果对你有用，**麻烦点一下 🌟 star，谢谢**！
 
 # ✅ 导读
 
@@ -185,15 +185,3 @@
   - [Mem0 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/Mem0%E9%80%9F%E8%AF%BB%E7%B2%BE%E8%A6%81.md)
   - [Graph of Thoughts 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/Graph%20of%20Thoughts%20%E9%80%9F%E8%AF%BB%E7%B2%BE%E8%A6%81.md)
   - [Tree of Thoughts 速读精要](https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/examples/Tree%20of%20Thoughts%20%E9%80%9F%E8%AF%BB%E7%B2%BE%E8%A6%81.md)
-
-# ✅ 增长曲线
-
-<p align="center">
- <a href="https://www.star-history.com/limouren2000/llms-dev-study">
-  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=limouren2000/llms-dev-study&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=limouren2000/llms-dev-study" />
-   <img alt="Star History Rank" src="https://api.star-history.com/badge?repo=limouren2000/llms-dev-study" />
-  </picture>
- </a>
-</p>
