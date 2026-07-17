@@ -189,8 +189,10 @@
 # ✅ 增长曲线
 
 <p align="center">
-  <!-- Star History 增长曲线 -->
-  <img width="800" alt="Star History Chart"
-       src="https://api.star-history.com/svg?repos=limouren2000/llms-dev-study&type=Date"
-       style="max-width: 100%;" />
+  <a href="https://www.star-history.com/#limouren2000/llms-dev-study&Date">
+    <img alt="查看 Star History 增长曲线"
+         src="https://img.shields.io/badge/Star%20History-%E6%9F%A5%E7%9C%8B%E5%A2%9E%E9%95%BF%E6%9B%B2%E7%BA%BF-blue?style=for-the-badge" />
+  </a>
 </p>
+
+> 说明：Star History 的旧版 README 图片接口已不可用，点击上方按钮可以跳转到 Star History 页面查看增长曲线。
