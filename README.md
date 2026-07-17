@@ -189,8 +189,11 @@
 # ✅ 增长曲线
 
 <p align="center">
-  <!-- Star History 增长曲线 -->
-  <img width="800" alt="Star History Chart"
-       src="https://api.star-history.com/svg?repos=limouren2000/llms-dev-study&type=Date"
-       style="max-width: 100%;" />
+ <a href="https://www.star-history.com/limouren2000/llms-dev-study">
+  <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=limouren2000/llms-dev-study&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=limouren2000/llms-dev-study" />
+   <img alt="Star History Rank" src="https://api.star-history.com/badge?repo=limouren2000/llms-dev-study" />
+  </picture>
+ </a>
 </p>
