@@ -332,6 +332,28 @@ def build_paper_read() -> None:
         )
 
 
+def build_site_assets() -> None:
+    mathjax_config = r"""window.MathJax = {
+  tex: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    ignoreHtmlClass: ".*|",
+    processHtmlClass: "arithmatex"
+  }
+};
+
+document$.subscribe(() => {
+  MathJax.typesetPromise();
+});
+"""
+
+    write_page(WEB / "javascripts" / "mathjax.js", mathjax_config)
+
+
 def main() -> None:
     if WEB.exists():
         shutil.rmtree(WEB)
@@ -344,6 +366,7 @@ def main() -> None:
     build_agent()
     build_interview()
     build_paper_read()
+    build_site_assets()
 
     print(f"Website sources generated at: {WEB}")
 
