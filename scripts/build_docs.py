@@ -293,6 +293,14 @@ def build_paper_read() -> None:
 
 - [Paper Read Brief 使用说明](skill.md)
 
+最简单的方式是把下面这段话直接发给 **Codex** 或 **Claude Code（CC）**：
+
+```text
+安装这个 Skill：https://github.com/limouren2000/llms-dev-study/blob/main/4.Paper-read/paper-read-brief/SKILL.md
+
+安装完成后，请使用 paper-read-brief 速读这篇论文：<论文链接或 PDF 路径>
+```
+
 ## 示例
 
 - [ReAct 速读精要](examples/react.md)
@@ -304,7 +312,7 @@ def build_paper_read() -> None:
     write_page(destination / "index.md", content)
 
     stage_markdown(
-        paper_root / "SKILL.md",
+        paper_root / "README.md",
         destination / "skill.md",
         "Paper Read Brief",
     )
@@ -330,6 +338,11 @@ def build_paper_read() -> None:
             destination / "examples" / destination_name,
             title,
         )
+
+    copy_images(
+        paper_root / "examples" / "images",
+        destination / "examples" / "images",
+    )
 
 
 def build_site_assets() -> None:

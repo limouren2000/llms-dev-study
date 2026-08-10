@@ -20,6 +20,8 @@
 
 CoT 的问题在于，它虽然能生成推理链，但推理是静态的，完全依赖模型内部知识，不和外部世界交互。这容易导致事实幻觉和错误传播。Act-only 的问题相反：模型可以执行动作，但缺少高层语言推理，很容易不知道为什么要做下一步，也难以维护任务进度。
 
+![图1：标准提示、CoT、Act-only 与 ReAct 的轨迹对比](images/react-figure-1.png)
+
 Figure 1: Comparison of 4 prompting methods.
 
 > 图1：四种提示方法的比较。
@@ -112,6 +114,8 @@ Table 2 分析了 HotpotQA 的成功与失败类型。
 > 表2：ReAct 和 CoT 在 HotpotQA 上的成功与失败模式。
 
 解释：CoT 的主要失败来自幻觉，失败样本中 56% 是 hallucination；ReAct 的轨迹更 grounded，成功样本中的 false positive 也低于 CoT。但 ReAct 也有自己的问题：如果搜索结果不够有用，模型容易被错误检索带偏；还有时会重复生成相同 thought/action，陷入循环。
+
+![图3：HotpotQA 上提示与微调设置的模型规模对比](images/react-figure-3.png)
 
 Figure 3 展示了 prompting 和 finetuning 的缩放结果。
 

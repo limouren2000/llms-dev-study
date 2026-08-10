@@ -13,6 +13,9 @@
   <a href="https://github.com/limouren2000/llms-dev-study/network/members">
     <img src="https://img.shields.io/github/forks/limouren2000/llms-dev-study?style=for-the-badge&logo=github&color=blue" />
   </a>
+  <a href="https://limouren2000.github.io/llms-dev-study/">
+    <img src="https://img.shields.io/badge/在线文档-立即阅读-0078D7?style=for-the-badge&logo=readthedocs&logoColor=white" />
+  </a>
   <!-- <a href="https://xhslink.com/m/AteKDs8OWml">
     <img src="https://img.shields.io/badge/xhs-小红书-ff2442?style=for-the-badge&logo=xiaohongshu" />
   </a> -->
@@ -22,6 +25,8 @@
 本仓库为本人学习🔥大模型应用开发🔥时整理的核心学习资料，此学习路线主打 **“最快速上岸”**，全是干货无冗余扩展，💰以高效求职搞钱为第一要务💰。
 
 欢迎阅读仓库内容，如果对你有用，**麻烦点一下 🌟 star，谢谢**！
+
+📖 更适合阅读的网页版本：[大模型应用开发在线文档](https://limouren2000.github.io/llms-dev-study/)
 
 # ✅ 导读
 

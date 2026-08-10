@@ -20,6 +20,8 @@
 
 扩大上下文窗口只能延迟问题，不能根治问题。真实交互会跨越数周或数月，而且主题经常跳转。一个用户可能先说饮食偏好，中间聊很久编程任务，之后再问晚餐建议。完整上下文不仅昂贵，还会让关键事实埋在大量无关内容里；长上下文注意力也不保证模型能正确利用远处信息。
 
+![图1：持久记忆对 AI Agent 跨会话回答的影响](images/mem0-figure-1.png)
+
 Figure 1: Illustration of memory importance in AI agents.
 
 > 图1：AI Agent 中记忆重要性的示意图。左侧没有持久记忆，系统忘记用户的素食和无乳制品偏好，给出不合适推荐；右侧有有效记忆，系统跨会话保留饮食约束，从而给出符合上下文的建议。
@@ -41,6 +43,8 @@ $$
 其中 `m_t` 是当前消息，`m_{t-1}` 是前一条消息，通常构成一次用户与助手的完整交互单元。
 
 Mem0 的流程分成两个阶段：抽取阶段和更新阶段。
+
+![图2：Mem0 的记忆抽取与更新架构](images/mem0-figure-2.png)
 
 Figure 2: Architectural overview of the Mem0 system showing extraction and update phase. The extraction phase processes messages and historical context to create new memories. The update phase evaluates these extracted memories against similar existing ones, applying appropriate operations through a Tool Call mechanism. The database serves as the central repository, providing context for processing and storing updated memories.
 
@@ -84,6 +88,8 @@ $$
 $$
 
 其中 `v_s` 是源实体，`v_d` 是目标实体，`r` 是关系标签。
+
+![图3：Mem0g 的实体关系抽取、冲突检测与图更新架构](images/mem0-figure-3.png)
 
 Figure 3: Graph-based memory architecture of Mem0g illustrating entity extraction and update phase. The extraction phase uses LLMs to convert conversation messages into entities and relation triplets. The update phase employs conflict detection and resolution mechanisms when integrating new information into the existing knowledge graph.
 
@@ -158,6 +164,8 @@ Table 2: Performance comparison of various baselines with proposed methods. Late
 完整上下文方法的质量最高，约 73%，但代价很大：平均约 26000 tokens，每次查询都要让模型读完整对话，p95 总延迟约 17 秒。相比之下，Mem0 的 p95 总延迟约 1.44 秒，Mem0g 约 2.59 秒。**完整上下文在小规模评估中能拿到更高分，但不适合生产级长期交互；Mem0 系列提供了更现实的质量和成本平衡**。
 
 ### 4.4 延迟分析
+
+![图4：不同记忆方法的检索延迟、总延迟与回答质量对比](images/mem0-figure-4.png)
 
 Figure 4: Latency Analysis of Different Memory Approaches. These subfigures illustrate the J scores and latency comparison of various selected methods from Table 2. Subfigure (a) highlights the search/retrieval latency prior to answer generation, while Subfigure (b) shows the total latency (including LLM inference). Both plots overlay each method’s J score for a holistic view of their accuracy and efficiency.
 

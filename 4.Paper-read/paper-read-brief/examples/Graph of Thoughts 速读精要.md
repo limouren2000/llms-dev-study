@@ -14,6 +14,8 @@ Prompt engineering 的演进路径是从简单到复杂的结构化推理。输�
 
 GoT 认为 ToT 仍然有一个根本限制：树结构太刚性。树可以表达一个 thought 分裂成多个候选，但很难表达多个 thought 合并成一个更好的 thought。现实中的复杂思考经常不是树，而更像网络：先探索几个方向，再把不同方向中的有效部分组合起来；发现一个中间结果有问题后，也可能反复修改它，而不是只能继续向下扩展。
 
+![图1：从输入输出、CoT、CoT-SC、ToT 到 GoT 的结构对比](images/graph-of-thoughts-figure-1.png)
+
 Figure 1: Comparison of Graph of Thoughts (GoT) to other prompting strategies.
 
 图1：GoT 与其他 prompting 策略的比较。
@@ -118,6 +120,8 @@ $$
 
 这覆盖了 CoT-SC 和 ToT 中已有的分支展开能力。GoT 并不是抛弃 ToT，而是把 ToT 的“生成子节点”视为图操作的一种。
 
+![图2：GoT 中聚合与生成两类 thought 变换](images/graph-of-thoughts-figure-2.png)
+
 Figure 2: Examples of aggregation and generation thought transformations.
 
 图2：聚合和生成两种 thought 变换示例。
@@ -160,6 +164,8 @@ Controller 负责调度推理过程：选择哪些 thought，执行哪些 transf
 
 GoO 是静态执行计划，规定要执行哪些操作、操作顺序和依赖关系。GRS 是动态运行状态，记录已经生成的 thought、分数、有效性和执行进度。
 
+![图3：GoT 系统架构、模块 API 与图推理状态](images/graph-of-thoughts-figure-3.png)
+
 Figure 3: The system architecture of GoT, and the APIs of respective modules. The user can straightforwardly extend the design towards new prompting schemes, experiment with novel thought transformations, and plug in different LLMs. The blue part of the figure contains the architecture overview, the green part lists the API, and the red part contains example prompts together with a GRS and operations involved.
 
 图3：GoT 的系统架构及各模块 API。用户可以扩展该设计以实现新的 prompting 方案，实验新的 thought 变换，并接入不同 LLM。蓝色部分是架构概览，绿色部分列出 API，红色部分给出示例 prompt、GRS 和相关操作。
@@ -171,6 +177,8 @@ Figure 3: The system architecture of GoT, and the APIs of respective modules. Th
 ### 5.1 排序
 
 排序是论文展开最详细的用例。LLM 直接排序长数字序列时容易出错，尤其是重复数字的数量经常不一致。GoT 使用类似归并排序的思路：先把长列表拆成子列表，分别排序，再逐级合并。
+
+![图4：GoT 在 64 个数字排序任务中的操作图分解](images/graph-of-thoughts-figure-4.png)
 
 Figure 4: An example graph decomposition of the sorting use case in GoT. All used operations (Generate, Aggregate, Score, KeepBest) are described in Figure 3.
 

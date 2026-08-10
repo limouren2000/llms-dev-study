@@ -14,6 +14,8 @@
 
 论文借用认知科学中的“双系统”视角来说明动机：普通语言模型生成更像系统一（System 1），快速、自动、局部；复杂问题求解需要系统二（System 2），慢速、审慎、会规划。ToT 要做的就是在推理阶段给语言模型加上一层系统二式的搜索过程。
 
+![图1：大语言模型问题求解方法对比](images/tree-of-thoughts-figure-1.png)
+
 Figure 1: Schematic illustrating various approaches to problem solving with LLMs. Each rectangle box represents a thought, which is a coherent language sequence that serves as an intermediate step toward problem solving. See concrete examples of how thoughts are generated, evaluated, and searched in Figures 2,4,6.
 
 图1：展示大语言模型解决问题的不同方式。每个矩形框代表一个思维单元，也就是作为问题求解中间步骤的连贯语言序列。图2、图4、图6展示这些思维单元如何生成、评估和搜索。
@@ -120,9 +122,21 @@ ToT 的整体特点有四个：
 
 Game of 24 验证的是早期决策很关键的数学搜索。ToT 把思维设为一步中间算式，用 BFS 保留多个候选路径。关键结果是：IO 7.3%，CoT 4.0%，CoT-SC 9.0%，ToT `b=5` 达到 74%；即使 CoT 采样 100 次，best-of-100 也只有 49%。**结论是 ToT 的提升来自中间步骤层面的搜索，而不是简单多采样完整答案。**
 
+![图2：ToT 在 Game of 24 中的思维生成与状态评估](images/tree-of-thoughts-figure-2.png)
+
+> 图2：在 Game of 24 中，语言模型先通过 proposal prompt 生成下一步算式，再通过 value prompt 判断剩余数字是否仍有机会得到 24。绿色路径表示可继续探索的候选，红色路径表示应被剪枝的候选。
+
 Creative Writing 验证开放式规划。ToT 先生成多个写作计划并投票，再基于选出的计划写文章。自动连贯性评分和人工盲评都更偏向 ToT。**结论是 ToT 不只适合唯一答案任务，也能用于开放式任务中的高层方案比较。**
 
+![图4：ToT 在 Creative Writing 中生成并投票选择写作计划](images/tree-of-thoughts-figure-4.png)
+
+> 图4：模型从同一输入采样多个写作计划，通过多次投票选择最有希望的计划，再使用相同的“采样—投票”过程生成最终文章。
+
 Mini Crosswords 验证深层约束搜索。ToT 把思维设为一个线索对应的填词，用 DFS、剪枝和回溯逐步填棋盘。IO 和 CoT 的单词级成功率不到 16%，ToT 提升到 60%，并解出 4/20 个完整 crossword。消融表明剪枝和回溯都很重要。**结论是 ToT 在约束强、路径深的任务上尤其依赖状态评估和回溯能力。**
+
+![图6：ToT 在 Mini Crosswords 中的候选排序、状态评估与回溯](images/tree-of-thoughts-figure-6.png)
+
+> 图6：模型为未填写的线索提出候选并按置信度排序；状态评估器逐条检查剩余线索，一旦发现某条线索已不可能完成，就剪掉当前子树并回溯到父状态。
 
 ## 5 相关工作
 
