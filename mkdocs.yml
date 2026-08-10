@@ -1,0 +1,98 @@
+site_name: 大模型应用开发学习路线
+site_description: RAG、Agent、大模型应用开发和面试相关学习资料
+site_author: Limouren
+
+site_url: https://limouren2000.github.io/llms-dev-study/
+
+repo_url: https://github.com/limouren2000/llms-dev-study
+repo_name: limouren2000/llms-dev-study
+edit_uri: ""
+
+docs_dir: _web
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换至深色模式
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至浅色模式
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search:
+      lang:
+        - ja
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - 首页: index.md
+  - 学习路线: roadmap/index.md
+  - RAG:
+      - RAG 导读: rag/index.md
+      - llms-1：RAG 扫盲课程: rag/llms-1/index.md
+      - llms-2：RAG 检索课程: rag/llms-2/index.md
+      - llms-3：RAG From Scratch: rag/llms-3/index.md
+      - llms-4：RAG 入门项目: rag/starter-project/index.md
+  - Agent:
+      - Agent 导读: agent/index.md
+      - AI Agent 入门 Demo: agent/ai-agent/index.md
+      - 千问 Agent Demo: agent/qw-agent/index.md
+      - Google × Kaggle Agent 课程: agent/google-kaggle/index.md
+      - Agent 入门项目：Easy MCP: agent/starter-project/index.md
+  - 面试八股: interview/index.md
+  - 论文阅读:
+      - 论文阅读导读: paper-read/index.md
+      - Paper Read Brief: paper-read/skill.md
+      - 示例:
+          - ReAct: paper-read/examples/react.md
+          - Mem0: paper-read/examples/mem0.md
+          - Graph of Thoughts: paper-read/examples/graph-of-thoughts.md
+          - Tree of Thoughts: paper-read/examples/tree-of-thoughts.md

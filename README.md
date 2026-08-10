@@ -25,26 +25,30 @@
 
 # ✅ 导读
 
-🚀 本项目为大模型应用开发 RAG 和 Agent 的**学习路线**和**面试八股**，包含最**基础的扫盲课程**，和**系统的优化课程**，主要是协助大家🧐快速入门🧐。  
-⚠️ 注意：因为langchain官方的**包版本机制混乱**，这里的一些包大概率是过时了，**解决方案**也很简单：直接把你的报错扔给任何一个大模型（deepseek，GPT，doubao都可以），他们会告诉你怎么解决。  
+🚀 本项目为大模型应用开发 RAG 和 Agent 的**学习路线**和**面试八股**，包含最**基础的扫盲课程**，和**系统的优化课程**，主要是协助大家🧐快速入门🧐。
+
+⚠️ 注意：因为 LangChain 官方的**包版本机制混乱**，这里的一些包大概率已经过时。**解决方案**也很简单：直接把报错和相关代码交给 Codex、Claude Code 或 Cursor，让它们根据当前依赖版本协助定位和修改。
+
 📖 目录结构为五部分：
-- **0.LLM-Dev Study Router 文件夹**：大模型应用开发岗位学习路线总览，说明岗位边界、技术栈选择和整体学习顺序；
-- **1.RAG 文件夹**：RAG相关的项目Demo和课程；
-- **2.Agent 文件夹**：Agent相关的Demo和课程；
-- **3.Interview**：大模型RAG和Agent的面试八股；
-- **4.Paper-read 文件夹**：论文阅读相关的 Codex skills，目前包含论文速读精要 skill。
+
+- [**0.LLM-Dev Study Router 文件夹**](https://github.com/limouren2000/llms-dev-study/tree/main/0.LLM-Dev%20Study%20Router)：大模型应用开发岗位学习路线总览，说明岗位边界、技术栈选择和整体学习顺序；
+- [**1.RAG 文件夹**](https://github.com/limouren2000/llms-dev-study/tree/main/1.RAG)：RAG相关的项目Demo和课程；
+- [**2.Agent 文件夹**](https://github.com/limouren2000/llms-dev-study/tree/main/2.Agent)：Agent相关的Demo和课程；
+- [**3.Interview**](https://github.com/limouren2000/llms-dev-study/tree/main/3.Interview)：大模型RAG和Agent的面试八股；
+- [**4.Paper-read 文件夹**](https://github.com/limouren2000/llms-dev-study/tree/main/4.Paper-read)：学习大模型免不了关注最新论文，但很多同学平时没有阅读论文的习惯。这里提供论文阅读相关的 Codex Skill，帮助你快速提炼论文精要、了解核心思想。
 
 # ✅ LLM-Dev Study Router
 
 本部分是整套学习路线的入口，用来说明大模型应用开发岗是什么、和普通后端开发/大模型算法岗有什么区别，以及不同基础的同学应该如何选择学习顺序。
 
-- 🌹路线介绍：https://github.com/limouren2000/llms-dev-study/tree/main/0.LLM-Dev%20Study%20Router
+- 🌹[路线介绍：大模型应用开发岗位学习路线](https://github.com/limouren2000/llms-dev-study/tree/main/0.LLM-Dev%20Study%20Router)
 - 适合人群：想快速判断自己该先学后端开发、RAG/Agent，还是基于已有后端经验直接补 AI 应用落地技术栈的同学。
 - 核心结论：大模型应用开发岗的技术栈可以概括为 **后端开发技术栈 + AI 落地相关技术栈**，本项目后续重点围绕 RAG、Agent、面试八股和论文阅读展开。
 
 # ✅ RAG
 
 本部分一共**四个部分**：
+
 - llms-1和llms-2为B站上的🕶️**扫盲课**🕶️，两位Up主讲的清楚且简洁，主要是入门了解的，快速过一下即可；
 - llms-3为Langchain官方出的RAG教程，视频部分这里展示了原版和国内翻译版，主要讲解了RAG过程中的主要流程及其优化点，**🔥建议重点看这个，面试会问很多优化点🔥**；
 - llms-4为langchain是官方给出的**💡RAG项目💡**例子，这里会包含最基础的RAG项目的流程，保证你立马就能run起来，并且代码结构很简单。
@@ -91,9 +95,11 @@
 
 # ✅ Agent
 
-本部分一共**三个部分**：
+本部分一共**四个部分**：
+
 - **1.AI_Agent** 和 **2.QW_Agent** 是B站两个简单的 Agent Demo，比较通俗易懂，主要是入门了解的，快速过一下即可；
 - **3.Google_and_Kaggle** 为谷歌联合Kaggle于2025.11.10——2025.11.14推出了他们的实践性课程 ——— AI Agent 强化课程。
+- **4.Agent入门项目** 使用 MCP 快速搭建一个能够实际运行的 Agent，把前面学到的概念落实到完整项目中。
 
 
 
@@ -162,7 +168,7 @@
 - 解读：https://www.bilibili.com/video/BV1qimwBpEqd/
 
 ## 4.Agent入门项目
- - 这里是Agent的入门项目，使用 MCP 快速搭建一个 Agent：https://github.com/limouren2000/easy-mcp
+- 这里是Agent的入门项目，使用 MCP 快速搭建一个 Agent：https://github.com/limouren2000/easy-mcp
 
 # ✅ Interview
 本部分包含两部分面试八股，是本人在找工作期间收集和整理的大模型应用开发八股文，本人实测，可以通过这些找到了一些大厂**高级AI研发工程师**相关岗位。

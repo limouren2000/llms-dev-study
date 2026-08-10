@@ -1,0 +1,13 @@
+# MkDocs generated files
+_web/
+site/
+
+# Local documentation environment
+.venv-docs/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
