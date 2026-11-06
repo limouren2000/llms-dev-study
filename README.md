@@ -27,9 +27,9 @@
 
 欢迎阅读仓库内容，如果对你有用，**麻烦点一下 🌟 star，谢谢**！
 
-📖 更适合阅读的网页版本：[大模型应用开发在线文档](https://limouren2000.github.io/llms-dev-study/)
+📖 更适合阅读的网页版本：**[大模型应用开发在线文档](https://limouren2000.github.io/llms-dev-study/)**
 
-📚 如果你需要传统后端相关的面试八股，可以看我跳槽时候准备的：[编程 Cookbook 后端开发面试知识库](https://my.feishu.cn/wiki/E7x9wOII0i34o2kVm86cmKVvnce)
+📚 如果你需要传统后端相关的面试八股，可以看我跳槽时候准备的：**[🔥编程 Cookbook 后端开发面试知识库🔥](https://my.feishu.cn/wiki/E7x9wOII0i34o2kVm86cmKVvnce)**
 
 
 # ✅ 导读
