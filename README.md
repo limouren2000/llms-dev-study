@@ -29,6 +29,9 @@
 
 📖 更适合阅读的网页版本：[大模型应用开发在线文档](https://limouren2000.github.io/llms-dev-study/)
 
+📚 如果你需要传统后端相关的面试八股，可以看我跳槽时候准备的：[编程 Cookbook 后端开发面试知识库](https://my.feishu.cn/wiki/E7x9wOII0i34o2kVm86cmKVvnce)
+
+
 # ✅ 导读
 
 🚀 本项目为大模型应用开发 RAG 和 Agent 的**学习路线**和**面试八股**，包含最**基础的扫盲课程**，和**系统的优化课程**，主要是协助大家🧐快速入门🧐。
